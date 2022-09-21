@@ -1511,7 +1511,7 @@ ol {
 
 
 /*---------------------
-    Blog
+    MAPA ONLINE
 -----------------------*/
 
 .blog {
@@ -1538,13 +1538,6 @@ ol {
 
 .blog__item:hover p {
     color: #ffffff;
-}
-
-.blog__item h4 {
-    color: #ffffff;
-    font-weight: 700;
-    line-height: 31px;
-    margin-bottom: 18px;
 }
 
 .blog__item ul {
@@ -1594,6 +1587,37 @@ ol {
     position: relative;
     top: 4px;
     margin-left: 5px;
+}
+
+.blog__item iframe {
+    height: 600px;
+}
+
+@media screen and (min-width: 480px) {
+    .blog__item iframe {
+        width: 12px;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    .blog__item iframe {
+        width: 400%;
+        height: 450;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .blog__item iframe {
+        width: 400%;
+        height: 450;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .blog__item iframe {
+        width: 400%;
+        height: 450;
+    }
 }
 
 
